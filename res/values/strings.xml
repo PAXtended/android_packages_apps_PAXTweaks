@@ -24,6 +24,7 @@
     <string name="advanced">Advanced</string>
     <string name="cancel">Cancel</string>
     <string name="choose_app">Choose app</string>
+    <string name="general_category">General</string>
     <string name="dlg_ok">OK</string>
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
@@ -39,5 +40,8 @@
     <string name="paxtweaks_dialog_title">Help us help you!</string>
     <string name="paxtweaks_dialog_message">If you find a bug please include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
     <string name="paxtweaks_dialog_toast">READ THE WHOLE THING!</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">Quick Settings</string>
 
 </resources>
