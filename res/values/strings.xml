@@ -29,6 +29,7 @@
     <string name="reset">Reset</string>
 
     <!-- Extensions categories -->
+    <string name="recents_category">Recents</string>
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="status_bar_category">Status Bar</string>

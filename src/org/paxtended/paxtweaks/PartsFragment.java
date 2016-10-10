@@ -59,6 +59,7 @@ import org.paxtended.paxtweaks.tabs.System;
 import org.paxtended.paxtweaks.PagerSlidingTabStrip;
 import org.paxtended.paxtweaks.tabs.StatusBar;
 import org.paxtended.paxtweaks.tabs.Lockscreen;
+import org.paxtended.paxtweaks.tabs.Recents;
 
 public class PartsFragment extends SettingsPreferenceFragment {
 
@@ -174,8 +175,9 @@ public class PartsFragment extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
             frags[0] = new StatusBar();
-	    frags[1] = new Lockscreen();
-            frags[2] = new System();
+            frags[1] = new Recents();
+	    frags[2] = new Lockscreen();
+            frags[3] = new System();
         }
 
         @Override
@@ -198,6 +200,7 @@ public class PartsFragment extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
                     getString(R.string.status_bar_category),
+                    getString(R.string.recents_category),
                     getString(R.string.lockscreen_category),
                     getString(R.string.system_category)};
         return titleString;
