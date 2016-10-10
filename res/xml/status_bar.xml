@@ -27,4 +27,10 @@
             android:layout="@layout/preference_quick_settings"
             android:title="@string/quick_settings_title" />
 
+         <PreferenceScreen
+            android:key="misc_settings"
+            android:fragment="org.paxtended.paxtweaks.statusbar.MiscSettings"
+            android:layout="@layout/preference_misc_settings"
+            android:title="@string/misc_settings_title" />
+
 </PreferenceScreen>

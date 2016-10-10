@@ -29,7 +29,7 @@
     <string name="loading">Loading\u2026</string>
     <string name="reset">Reset</string>
 
-    <!-- Extensions categories -->
+    <!-- PAXTweaks categories -->
     <string name="recents_category">Recents</string>
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
@@ -43,5 +43,8 @@
 
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
+
+    <!-- Misc Settings -->
+    <string name="misc_settings_title">Misc Settings</string>
 
 </resources>
