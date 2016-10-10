@@ -47,4 +47,8 @@
     <!-- Misc Settings -->
     <string name="misc_settings_title">Misc Settings</string>
 
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
 </resources>
